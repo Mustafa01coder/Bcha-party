@@ -83,10 +83,10 @@ st.write("---")
 
 # 2. Heartfelt Message
 st.markdown("""
-### **Mera Dil Ki Baat**
-Bcha, maine kal ki saari baatein boht baar parhi hain aur mujhe apni ghaltiyon ka ehsas hy. 
-Maine tumhain 'zaleel' mehsoos karwaya aur tumhari mental health ki qadar nahi ki.
-Tum psychiatric medicines le rahi ho aur itne stress mein ho, mujhe tumhara sahara banna chahiye tha.
+### **Mery Dil Ki Bat**
+Bcha mainy kl ki saari baatain bht bar read ki  hain or mjhy apni ghaltiyon ka ehsas hy. 
+Mainy thumain 'zaleel' mehsoos karwaya or tumhari mental health ki qadar nahi ki.
+medicines ly rahi ho or itne stress main ho, mjhy thumara sahara banna chehiyee tha.
 """)
 
 # 3. Promises Section (Aesthetic Info Box)
@@ -95,20 +95,20 @@ st.markdown("""
     <h3 style="color: #ff4b4b; margin-bottom: 15px;">My Promises to You:</h3>
     <p style="text-align: left; margin-left: 20px;">✅ I will never let you feel disrespected again.</p>
     <p style="text-align: left; margin-left: 20px;">✅ I will trust you more than my insecurities.</p>
-    <p style="text-align: left; margin-left: 20px;">✅ I will support you through your treatment and health journey.</p>
+    <p style="text-align: left; margin-left: 20px;">✅ I will support you till the last breath of my life .</p>
     <p style="text-align: left; margin-left: 20px;">✅ I will be the man you first fell in love with.</p>
 </div>
 """, unsafe_allow_html=True)
 
 st.write("---")
 with st.expander("Click to see what I've promised myself for us 🤍"):
-    st.write("✅ **Your Health:** Tumhara treatment aur sukoon meri priority hoga.")
-    st.write("✅ **Your Space:** Tumhein jitna time aur space chahiye, main wait karoon ga.")
-    st.write("✅ **Our Trust:** Purani baatein aur shaq kabhi wapas nahi aayenge.")
+    st.write("✅ **Your Health:** Thumara treatment or sukoon meri priority hoga.")
+    st.write("✅ **Your Space:** Tumhein jitna time or space chahiye, main wait karoon ga.")
+    st.write("✅ **Our Trust:** Purani baatein or kch bhi kabhi wapas nahi aayngy.")
 
 
 # 4. The Decision Button
-st.markdown("### Will you give us one last chance? 🥺")
+st.markdown("### Will you give our relation a one last chance? 🥺")
 
 if 'forgiven' not in st.session_state:
     st.session_state.forgiven = False
@@ -147,10 +147,11 @@ if st.session_state.forgiven:
         except: st.write("🖼️ (Image 4 missing)")
             
     st.markdown("---")
-    st.markdown("<h4 style='color: #ff4b4b;'>'Mohabbat ka saboot sath rehna nahi, ek dusre ka sukoon banna hy.'</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='color: #ff4b4b;'>'Muhabbatt ka saboot sath rehna nhi, ik dosry ka sukoon banna hy.'</h4>", unsafe_allow_html=True)
 
 st.write("---")
-st.caption("Hamesha Yours. ❤️")
+st.caption("Always Yours Babe. ❤️")
 
 
 st.markdown('</div>', unsafe_allow_html=True)
+
