@@ -75,7 +75,7 @@ st.title("I'm Sorry, My Bcha... 😔❤️")
 col_mid_1, col_mid_2, col_mid_3 = st.columns([1, 4, 1])
 with col_mid_2:
     try:
-        st.image("images/main.jpeg", width=450, caption="I only want you, hamesha.")
+        st.image("images/Main.jpeg", width=450, caption="I only want you, hamesha.")
     except:
         st.info("Bcha, yahan 'main.jpeg' honi thi. (Check images folder)")
 
@@ -151,5 +151,6 @@ if st.session_state.forgiven:
 
 st.write("---")
 st.caption("Hamesha Yours. ❤️")
+
 
 st.markdown('</div>', unsafe_allow_html=True)
